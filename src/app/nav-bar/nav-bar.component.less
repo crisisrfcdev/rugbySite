@@ -1,35 +1,38 @@
 nav {
-  	background-color: #D6EFFF;
-	padding: 10px 10%;
+ 	background-color: #D6EFFF;
 
 	img {
-		width: 4em;
-		height: 2em;
-		margin: 0 0;
+		height: 1.5em;
 		vertical-align: middle;  
 	}
 
 	a {
-  		text-decoration: none;
- 		padding: 10px; 
-  		color: black;
-  		font-family: monospace;
+ 		text-decoration: none;
+ 		padding: 8px; 
+ 		color: black;
+ 		font-family: monospace;
+		border-bottom: 2px solid transparent;
 
 		&:hover {
-  			background-color: #7BCE89;
+			border-bottom: 2px solid black;
 		}
+		
+		.active {
+  			background-color: #7BCE89;
+		}			
 	}
 
 	ul {
-  		margin: 0;
+
+			margin: 0;
+			justify-content: center;
   		padding: 0;
   		display: flex;
 	}
 
 	li {
-  		list-style-type: none;  
-  		margin: 0 2vw;
-  		font-size: 3vh;
+ 		list-style-type: none;  
+ 		font-size: 1.5em;
 		display: inline-flex;
 	}
 
