@@ -17,19 +17,21 @@ export class NewsService {
 //		},
 		{
 			'articleId': 2,
-			'title': 'Spring Season postoneponed!',
-			'date': '10/10/2099',
+			'subject': 'Crisis RFC',
+			'title': 'Summer Conditioning',
+			'date': '6/23/2020',
 			'imgLink':  '',
-			'article': 'The Sping season has been postponed until USA rugby is solvent.  This is completely unrelated to Covid19',
-			'byLine': 'me'
+			'article': 'Crisis RFC Summer optional conditioning is occurring Tuesdays and Thursdays at St. Joe Park. All exercises will be according to social distancing guidelines.',
+			'byLine': 'Matt Foley'
 		},
 		{
 			'articleId': 1,
-			'title': 'Breaking news story!',
-			'date': '10/10/2100',
+			'subject': 'Crisis RFC',
+			'title': 'Covid19 suspends Spring season',
+			'date': '5/1/2020',
 			'imgLink': '',
-			'article': 'The Sping season is back on!',
-			'byLine': 'future me'
+			'article': 'Due to Covid19, the Spring rugby season is suspended. There will be no rugby events until Covid19 guidance allows.',
+			'byLine': 'Matt Foley'
 		}
 	];
 

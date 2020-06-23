@@ -1,1 +1,14 @@
-<p>teams works!</p>
+<div class="teams-container">
+  <div class="team-container" *ngFor="let team of teams">
+		<div class="bio">
+    	<img class="crest" src='{{team.crest}}'>
+			<h3> {{team.name}} </h3>
+	 		<p>{{team.bio}}</p>
+		</div>
+		<div class="team-pic">
+	    <img src='{{team.image}}'>
+		</div>
+		<p>Contact {{team.shortName}} on fb at {{team.fb}} or by email at {{team.email}}</p>
+  </div>
+</div>
+

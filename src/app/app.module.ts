@@ -11,6 +11,9 @@ import { AboutComponent } from './about/about.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 import { FoundationComponent } from './foundation/foundation.component';
+import { ContactsService } from './service/contacts.service';
+import { TeamsService } from './service/teams.service';
+import { NewsService } from './service/news.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,11 @@ import { FoundationComponent } from './foundation/foundation.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+		ContactsService,
+		TeamsService,
+		NewsService 
+	],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

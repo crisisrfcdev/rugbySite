@@ -1,7 +1,14 @@
-<div class="image-class">
-<app-header></app-header>
-<app-nav-bar></app-nav-bar>
+<div class='content'>
+	<div class='content-inside'>
+		<header class="header">
+			<div class="image-class">
+				<app-header></app-header>
+			</div>
+		</header>  
+		<app-nav-bar></app-nav-bar>
+		<router-outlet></router-outlet>
+	</div>
 </div>
-<router-outlet></router-outlet>
-
-<app-footer></app-footer>
+<footer class='footer'>
+	<app-footer></app-footer>
+</footer>
