@@ -1,7 +1,7 @@
 nav {
  	background-color: #D6EFFF;
 
-	img {
+	.home-icon {
 		height: 1.5em;
 		vertical-align: middle;  
 	}
@@ -34,6 +34,18 @@ nav {
  		list-style-type: none;  
  		font-size: 1.5em;
 		display: inline-flex;
+	}
+
+	@media (max-width: 420px) { 
+		ul{ 
+			padding: auto;
+			display: inline-block;
+			justify-content: left; 
+		} 
+		li{
+			width: 100%;
+			border-bottom: 1px solid black;
+  	}
 	}
 
 }

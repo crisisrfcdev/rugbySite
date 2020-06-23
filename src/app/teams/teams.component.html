@@ -1,7 +1,9 @@
 <div class="teams-container">
   <div class="team-container" *ngFor="let team of teams">
 		<div class="bio">
-    	<img class="crest" src='{{team.crest}}'>
+			<div class="crest">
+    		<img src='{{team.crest}}'>
+			</div>
 			<h3> {{team.name}} </h3>
 	 		<p>{{team.bio}}</p>
 		</div>
